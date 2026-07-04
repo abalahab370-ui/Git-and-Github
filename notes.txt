@@ -1,0 +1,72 @@
+These Notes Are Totaly related to git and github : 
+we gona start with multiple command line : 
+
+1- how to make a repo in git : creat a folder then inside it write : git init (you will notices
+a new folder could git do not touch it anless you want to make this repo a normal folder!).
+
+2- how to chake files and folders status : git status ( green for add , red for deleted or 
+not added).
+
+3- how to add a files and folders to repo : git add .|| git add -A ( or use the path of the specifiq file
+or folder ).
+
+4- how to save changes : git commite
+
+5- how to reset a file from added to untracked file : git reset . (or be specifiq)
+
+6- how to throw away your changes and get back the last committed version: git restore . (or be 
+specifiq)
+
+7- how to link the git repo with github : 
+git remote add origin https://github.com/abalahab370-ui/repo-name-in-github
+git branch -M main
+
+8- how to push content into github : git push -u origin main 
+
+9- how to display all remotes : git remote -v
+
+10- how to set remote to anothere repo : git remote set-url origin https://github.com/abalahab37
+0-ui/repo-name-in-github
+
+11- how to add anothere remote : git remote add backup https://github.com/abalahab370-ui/repo-
+name-in-github 
+(just changing the name of the remote from origine to )
+
+12- how to chake the commits : git log 
+
+13- how to log all branches : git branch
+
+14- how to creat a new branch (it will get the same content as the current one that you are in)
+ : git branch branch-name
+
+15- how to switch a branch : git checkout branch-name
+
+16- how to remove a branch : git branch -d branch-name
+
+17- how to push a branch to github : git push -u origin branch-name
+
+18- how to delete a branch from github : git push origin --delete branch-name
+
+19- how to merg two branch : go to one and do : git merge dev  (you have to push it again )
+
+20- how to slove merge conflict : when you try merge it will tell you to solve by yourself 
+so you take decition inside the file what to delete and what to add and what to keep .
+
+21- how to log all current branch commits : git log --oneline ( you can add --all for all project
+Commits and --graph for visual graph ).
+
+22- git checkout <commit-id> lets you view an old snapshot of the project (detached HEAD). 
+To return to your latest work, switch back to your branch (like git switch main), which points
+to the latest commit and full history.
+
+23- git pull updates only the current branch by fetching remote changes and merging them into
+it ; it does not affect other branches. git fetch only downloads updates without changing your
+local branches until you do git merge 
+
+24- git clone = always creates a brand-new separate project folder, no matter where you run it.
+
+25- git stash temporarily saves uncommitted changes in a hidden stack so you can clean your 
+working directory and switch branches safely, then restore the changes later using git stash 
+pop. ( we can use also git stash drop to drop it and git stash list to list all stashs)
+
+26- 
